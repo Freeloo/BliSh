@@ -13,4 +13,10 @@ int config()
    {
        return 0;
    }
+
+}
+
+int config_load_file()
+{
+   
 }

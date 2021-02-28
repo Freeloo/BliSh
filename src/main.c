@@ -1,7 +1,13 @@
 #include <stdio.h> 
-#include "./config.h"
+#include "config.h"
+#include "init.h"
+#include "read_exec.h"
 
 int main ()
 {
-    config();
+    init();
+    for(;;)
+    {
+        read_exec();
+    }
 }
