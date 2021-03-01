@@ -1,2 +1,5 @@
 # BliSh
-A free &amp; open-source TUI shell
+
+BliSh is a little shell for GNU/Linux written in C. 
+
+<img src="./license.png"/>
