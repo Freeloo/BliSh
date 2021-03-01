@@ -8,6 +8,8 @@ int main ()
 {
     init();
     for(;;)
+    {
         exec(read_from_stdin());
+    }
     fclose(config_file);
 }
