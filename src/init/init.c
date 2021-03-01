@@ -1,5 +1,5 @@
 #include "init.h"
-#include "config.h"
+#include "../config/config.h"
 
 void init()
 {

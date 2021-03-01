@@ -1,3 +1,3 @@
 void read_exec();
-char *read();
+char *read_from_stdin();
 void exec(char *command);

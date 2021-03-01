@@ -1,18 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "read_exec.h"
+#include "interpreter.h"
 
-void read_exec()
-{
-    exec(read());
-}
-
-char *read()
-{
-    char *command;
-    fgets(command, 50, stdin);
-    return command;
-}
 
 void exec(char *command)
 {
