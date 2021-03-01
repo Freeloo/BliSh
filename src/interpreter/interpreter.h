@@ -1,3 +1,4 @@
-void read_exec();
+void exec();
 char *read_from_stdin();
-void exec(char *command);
+char command[150];
+void exec();

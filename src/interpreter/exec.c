@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 #include "interpreter.h"
 
 
-void exec(char *command)
+void exec(char command[50])
 {
     if(command=="exit")
     {
@@ -11,6 +12,10 @@ void exec(char *command)
     }
     else 
     {
-        system(command);
+       system(command);
+    }
+    for(int i; i<strlen(command);i++)
+    {
+        command[i]=NULL;
     }
 }

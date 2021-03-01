@@ -1,11 +1,13 @@
 #include <stdlib.h>
+#include <string.h>
 #include <stdio.h>
 #include "interpreter.h"
 
 char *read_from_stdin()
 {
-    char *command;
-    fgets(command, 50, stdin);
+    putchar('>');
+    fgets(command, 150, stdin);
+    command[strlen(command)-1]='\0';
     return command;
 }
 
